@@ -1,3 +1,33 @@
+:root {
+  --soft-pink: #f1b2ce;
+  --light-backgound: #fff1f7;
+  --pink-color: #db00ff;
+  --accent-color: #ff0070;
+  --pink-light: #ffc2e6;
+  --pink-deep: #ff8dcb;
+  --black-color: #000028;
+  --dark: #353430;
+
+
+
+
+
+
+
+
+  --page-font-family: "IBM Plex mono", Arial;
+  --page-background-image: url("../images/cover-image-dark.png");
+  --page-background-color: var(--black-color, #000028);
+  --title-color: var(--pink-color, #db00ff);
+  --text-shadow: var(--accent-color, #ff0070);
+  --header_description: var(--accent-color, #ff0070);
+  --decorated-zone: var(--accent-color, #ff0070);
+  --button:  var(--accent-color, #ff0070);
+  --background_text: var(--accent-color, #ff0070);
+  --text-color:  var(--soft-pink,  #f1b2ce); 
+  --text-title-color: var( --black-color, #000028);
+}
+
 /*
   Переменные для вашего проекта
   и их переопределение под различные устройства
