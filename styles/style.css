@@ -16,7 +16,6 @@
   justify-items: end;
   align-items: center;
   min-height: 100vh;
-  
 }
 
 .decorated-zone {
@@ -265,7 +264,6 @@
     }
   }
 
- 
   .text_gallery {
     margin-bottom: 20px;
   }
@@ -325,7 +323,7 @@
   .header__theme-menu {
     margin-left: 2px;
     justify-self: center;
-   height: 100%;
+    height: 100%;
   }
 
   .info_section {
