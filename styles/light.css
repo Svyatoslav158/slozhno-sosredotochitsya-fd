@@ -1,23 +1,36 @@
 :root.theme-light {
   --page-background-image: url("../images/cover-image-light.png");
   --page-background-color: var(--color-pink-1, #fff1f7);
+  --title-color: var(--pink-light, #ffc2e6);
+  --text-shadow: var(--pink-deep, #ff8dcb);
+  --page-background-image: url("../images/cover-image-light.png");
+}
 
+.theme-light .page {
   .rec {
     display: none;
   }
 }
 
-.theme-light .page {
-  --title-color: var(--pink-light, #ffc2e6);
-  --text-shadow: var(--pink-deep, #ff8dcb);
-  --page-background-image: url("../images/cover-image-light.png");
+@media (prefers-color-scheme: light) {
+  :root {
+    --page-background-image: url("../images/cover-image-light.png");
+    --page-background-color: var(--color-pink-1, #fff1f7);
+    --title-color: var(--pink-light, #ffc2e6);
+    --text-shadow: var(--pink-deep, #ff8dcb);
+    --page-background-image: url("../images/cover-image-light.png");
 
-  --decorated-zone: var(--dark, #353430);
-  --button: var(--pink-deep, #ff8dcb);
+    --decorated-zone: var(--dark, #353430);
+    --button: var(--pink-deep, #ff8dcb);
 
-  --background_text: var(--pink-deep, #ff8dcb);
-  --text-color: var(--dark, #353430);
+    --background_text: var(--pink-deep, #ff8dcb);
+    --text-color: var(--dark, #353430);
 
-  --header_description: var(--pink-deep, #ff8dcb);
-  --text-title-color: var(--dark, #353430);
+    --header_description: var(--pink-deep, #ff8dcb);
+    --text-title-color: var(--dark, #353430);
+
+    .rec {
+      display: none;
+    }
+  }
 }
