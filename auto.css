@@ -1,0 +1,30 @@
+:root.theme-auto {
+    @media (prefers-color-scheme: dark) {
+    }
+
+    @media (prefers-color-scheme: light) {
+        --page-background-image: url("../images/cover-image-light.png");
+        --page-background-color: var(--color-pink-1, #fff1f7);
+
+        .rec {
+            display: none;
+        }
+    }
+}
+
+.theme-auto .page {
+    @media (prefers-color-scheme: light) {
+        --title-color: var(--pink-light, #ffc2e6);
+        --text-shadow: var(--pink-deep, #ff8dcb);
+        --page-background-image: url("../images/cover-image-light.png");
+
+        --decorated-zone: var(--dark, #353430);
+        --button: var(--pink-deep, #ff8dcb);
+
+        --background_text: var(--pink-deep, #ff8dcb);
+        --text-color: var(--dark, #353430);
+
+        --header_description: var(--pink-deep, #ff8dcb);
+        --text-title-color: var(--dark, #353430);
+    }
+}
