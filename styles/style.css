@@ -1,21 +1,25 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 .page {
-  font-family: "IBM Plex mono", Arial, Helvetica, sans-serif;
+  font-family: "IBM Plex mono", monospace, Arial, Helvetica, sans-serif;
   background-color: var(--page-background-color, #000028);
+  background-image: var(--page-background-image);
+  background-size: cover;
+  background-position: center;
   background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
 /* ШАПКА */
 
 .header {
   padding: 10px;
-  background-image: var(--page-background-image);
-  background-size: cover;
+
   display: grid;
   grid-template-rows: 1fr min-content 1fr;
   justify-items: end;
   align-items: center;
-  min-height: 100vh;
+  min-height: 668px;
+  height: 100vh;
 }
 
 .decorated-zone {
@@ -91,7 +95,7 @@
 }
 
 .header__theme-menu-button:hover {
-  border-color: var(--button, #ff0070);
+  border-color: var(--button-focus, #ff0070);
 }
 
 .header__theme-menu-button:focus {
@@ -112,6 +116,7 @@
 
 .header_description {
   background-color: var(--header_description, #ff0070);
+  color: var(--text-title-color, #000028);
   display: flex;
   width: clamp(355px, 50%, 491px);
   padding: 0px;
@@ -132,7 +137,7 @@
   margin-bottom: 20px;
   line-height: 23.4px;
   font-size: 18px;
-  color: var(--background_text, #ff0070);
+  color: var(--accent-color, #ff0070);
   font-weight: 700;
 }
 
@@ -165,6 +170,18 @@
 .link {
   text-decoration: none;
   text-shadow: 2px 2px 0 var(--text-shadow, #ff0070);
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.link:focus {
+  outline: none;
+}
+
+.link:focus-visible {
+  outline: 1px solid var(--text-color, #f1b2ce);
 }
 
 .text_block_subtitle {

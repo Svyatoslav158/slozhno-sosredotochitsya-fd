@@ -4,6 +4,16 @@
   --title-color: var(--pink-light, #ffc2e6);
   --text-shadow: var(--pink-deep, #ff8dcb);
   --page-background-image: url("../images/cover-image-light.png");
+  --button-focus: rgba(53, 52, 48, 0.5);
+
+  --decorated-zone: var(--dark, #353430);
+  --button: var(--dark);
+  --background_text: var(--pink-deep, #ff8dcb);
+  --text-color: var(--dark, #353430);
+  --header_description: var(--pink-deep, #ff8dcb);
+  --text-title-color: var(--dark, #353430);
+
+  --accent-color: var(--dark, #353430);
 }
 
 .theme-light .page {
@@ -19,15 +29,15 @@
     --title-color: var(--pink-light, #ffc2e6);
     --text-shadow: var(--pink-deep, #ff8dcb);
     --page-background-image: url("../images/cover-image-light.png");
+    --button-focus: rgba(53, 52, 48, 0.5);
 
     --decorated-zone: var(--dark, #353430);
-    --button: var(--pink-deep, #ff8dcb);
-
+    --button: var(--dark);
     --background_text: var(--pink-deep, #ff8dcb);
     --text-color: var(--dark, #353430);
-
     --header_description: var(--pink-deep, #ff8dcb);
     --text-title-color: var(--dark, #353430);
+    --accent-color: var(--dark, #353430);
 
     .rec {
       display: none;

@@ -16,9 +16,8 @@
   --header_description: var(--accent-color, #ff0070);
   --decorated-zone: var(--accent-color, #ff0070);
   --button: var(--accent-color, #ff0070);
+  --button-focus: rgba(255, 0, 112, 0.5);
   --background_text: var(--accent-color, #ff0070);
   --text-color: var(--soft-pink, #f1b2ce);
   --text-title-color: var(--black-color, #000028);
 }
-
-

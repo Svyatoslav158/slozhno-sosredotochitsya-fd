@@ -6,6 +6,7 @@
 
 :root.theme-dark {
   --page-background-image: url("../images/cover-image-dark.png");
+
   --page-background-color: #000028;
 
   --page-background-color: var(--black-color, #000028);
@@ -16,7 +17,13 @@
   --button: var(--accent-color, #ff0070);
   --background_text: var(--accent-color, #ff0070);
   --text-color: var(--soft-pink, #f1b2ce);
+  --button-focus: rgba(255, 0, 112, 0.5);
   --text-title-color: var(--black-color, #000028);
+  --accent-color: #ff0070;
+
+  .rec {
+    display: flex;
+  }
 }
 
 /* .theme-dark .page {
